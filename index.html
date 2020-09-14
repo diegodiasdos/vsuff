@@ -1,0 +1,28 @@
+<!--Aluno: Diego Dias. 
+Instituto: Universidade FLuminense Federal
+Pós-graduação em Computação 
+Professor: Marcos Lage 
+Disciplina: Visualização de Dados 
+Gráfico de Barras- sobre a população da Français.-->
+
+<!DOCTYPE html>
+<html style="height: 100%;">
+  <head>
+    <title>Grafico de Barras</title>
+    <meta http-equiv="Content-Type" content="text/html" ; charset="utf-8" />
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+  </head>
+  <body
+    id="body"
+    style="height: 100%; width: 100%;"
+    onload="loadData()"
+    onresize="visualizaData();"
+  >
+    <h1>Gráfico de Barras</h1>
+    <div id="d3-visualization-contianer">
+      <svg style="border: 1px lightgray solid;" />
+    </div>
+
+    <script src="bar-chart.js" type="text/JavaScript"></script>
+  </body>
+</html>
